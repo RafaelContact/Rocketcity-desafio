@@ -6,14 +6,27 @@ body{
     height: 812;
     margin: auto;
     background-color: #191816;
-    color: #afb6c2;
-}
+    color: #afb6c2; }
 h1{
     color: #d4ccb6;
     display: inline-block;
 }
-.height{
-    
+.tam{
+    background-color: #191816;
+}
+#box{
+    display: inline-block;
+}
+.checkbox{
+    display: inline-block;
+
+}
+a{
+    color: #ffc632;
+    text-decoration: none;
+}
+.submit{
+    background-color: #ffc632 ;
 }
 /* --primary-color: #ffc632;
       --text-base: #afb6c2;
