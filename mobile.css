@@ -1,0 +1,32 @@
+body{
+    width: 415px;
+    /* tamanho do galaxy s20*/
+    /*width: 430px;*/
+    /*A largura do iphone 12max é de 428px segundo o firefox */ 
+    height: 812;
+    margin: auto;
+    background-color: #191816;
+    color: #afb6c2;
+}
+h1{
+    color: #d4ccb6;
+    display: inline-block;
+}
+.height{
+    
+}
+/* --primary-color: #ffc632;
+      --text-base: #afb6c2;
+      ## **Tipo de fonte:**
+
+font-family: Poppins 
+
+font Weight: 400, 500 e 600
+
+font-family: Roboto
+
+Font Weight: 400 e 500
+
+Você pode encontrar 
+a fonte no [Google Fonts]
+(https://fonts.google.com/) /*
