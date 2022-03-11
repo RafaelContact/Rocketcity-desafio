@@ -12,22 +12,30 @@ h1{
     display: inline-block;
 }
 .tam{
+/* input boxes */
     background-color: #191816;
+    
 }
+
+
 #box{
-    display: inline-block;
+/* checkbox*/
 }
 .checkbox{
+/* checkbox line*/
     display: inline-block;
-
+ 
 }
 a{
+/* below links*/
     color: #ffc632;
     text-decoration: none;
 }
 .submit{
+/* boton */
     background-color: #ffc632 ;
 }
+
 /* --primary-color: #ffc632;
       --text-base: #afb6c2;
       ## **Tipo de fonte:**
