@@ -4,15 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="mobile.css">
     <title>Mobile-dark-yellow</title>
-</head>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="./mobile.css">
+    </head>
+    <style>
+        body{
+            font-family: 'Poppins', sans-serif;
+        }
+        a{
+            font-family: 'Roboto', sans-serif;;
+        }
+    </style>
 <body>
+    
     <head>
+        <div class="body">
     <img src="./images/logo.svg" alt="logo"><br>
     <img src="./images/log-in.svg" alt="login">
         <h1>Faça seu login</h1>
-       <p> Entre com suas informações de cadastro</p>
+       <h2> Entre com suas informações de cadastro</h2>
+        </div>
     </head>
         <form action="">
             <p>E-mail </p>
@@ -22,9 +34,10 @@
             <!-- Os inputs devem ter estilos diferentes dependendo do estado (normal ou em foco) -->
             <br><input class="box" type="checkbox" nome="check">
             <p class="checkbox" >Lembre-me</p>
-            <a href="">Esqueci a minha Senha</a> <br>
+            <a href="" class="senha"> <strong> Esqueci a minha Senha </strong></a> <br>
             <input class="submit" type="submit" name="">
         </form>
-        <a href="">Não tem uma conta? <em>Registre-se</em></a>
-</body>
+        <a href="" class="center">Não tem uma conta? <strong> Registre-se </strong></a>
+    
+    </body>
 </html>
