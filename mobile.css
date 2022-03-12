@@ -5,7 +5,7 @@ body{
     /* tamanho do galaxy s20*/
     /*width: 430px;*/
     /*A largura do iphone 12max é de 428px segundo o firefox */ 
-    height: 812;
+    height: 813px;
     padding: 15px 10px 10px 20px;
     margin: 0px;
     background-color: #191816;
@@ -21,9 +21,10 @@ h1{
 }
 h2{
     margin-top: 5px;
-    font-size: 15px;
-
-    
+    font-size: 15px;   
+}
+p{
+    margin-bottom: 5px;
 }
 .tam{
 /* input boxes */
@@ -31,6 +32,10 @@ h2{
     width: 96%;
     height: 40px; 
     border-radius: 5px;
+    margin-bottom: 10px;
+    border-color: ;
+    border-width: 1px solid;
+    color: rgb(175, 182, 194);
 }
 #box{
 /* checkbox*/
@@ -45,17 +50,21 @@ a{
     text-decoration: none;
 }
 .senha{
-    margin: 0px 0px 0px 70px;
-  
+    float: right;  
+    margin: 16px 7px 0px 0px;
 }
 .center{
     /* below link text position */
    text-align: center;
    display: block;
+   margin-top: 14px;
 }
 .submit{
     /* boton */
         background-color: #ffc632;
+        width: 97%;
+        height: 45px;
+        border-radius: 6px;
 
 /* --primary-color: #ffc632;
       --text-base: #afb6c2;
