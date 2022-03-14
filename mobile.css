@@ -1,3 +1,10 @@
+/*:root {
+    --text-base: #afb6c2;
+    --text-title: #d4ccb6;
+    --background: #191816;
+    --form-background: #24221f;
+    --primary-color: #ffc632;
+  } */
 body{
  
     height: 813px;
@@ -82,17 +89,11 @@ a{
    display: block;
    margin-top: 14px;
 }
-
-
-/* --primary-color: #ffc632;
-      --text-base: #afb6c2;
-      ## **Tipo de fonte:**/
     
-    /* tamanho do galaxy s20*/
-    /*width: 430px;*/
-    /*A largura do iphone 12max é de 428px segundo o firefox */
-    @media screen and (min-widith: 430px) {
+    /* tamanho do galaxy s20  width: 430px;
+    A largura do iphone 12max é de 428px segundo o firefox */
+    @media screen and (min-width: 430px) {
         
         body{
-            background-color: #dddddd ; }
+            background-color: #24221f; }
     }
