@@ -1,16 +1,12 @@
-html{
-    background-color: white;
-}
 body{
-    /* tamanho do galaxy s20*/
-    /*width: 430px;*/
-    /*A largura do iphone 12max é de 428px segundo o firefox */ 
+ 
     height: 813px;
     padding: 15px 10px 10px 20px;
     margin: 0px;
     background-color: #191816;
     background-size: cover;
     color: #afb6c2; }
+    
 h1{
     color: #d4ccb6;
     display: inline-block;
@@ -67,6 +63,7 @@ p{
     font-size: 16px;
     letter-spacing: 1px;
     text-transform: uppercase;
+    font-weight: bold;
 /* Links configs */
 } 
 a{
@@ -89,4 +86,13 @@ a{
 
 /* --primary-color: #ffc632;
       --text-base: #afb6c2;
-      ## **Tipo de fonte:**
+      ## **Tipo de fonte:**/
+    
+    /* tamanho do galaxy s20*/
+    /*width: 430px;*/
+    /*A largura do iphone 12max é de 428px segundo o firefox */
+    @media screen and (min-widith: 430px) {
+        
+        body{
+            background-color: #dddddd ; }
+    }
