@@ -26,38 +26,35 @@ h2{
 p{
     margin-bottom: 5px;
 }
+
+/* Input configs */
+
 .tam{
-/* input boxes */
-    background-color: #191816; 
+/* input boxes */ 
     width: 96%;
-    height: 40px; 
+    height: 35px; 
     border-radius: 5px;
     margin-bottom: 10px;
-    border-color: ;
     border-width: 1px solid;
     color: rgb(175, 182, 194);
+    padding: 0px 5px 0px 35px;
+    box-sizing: border-box;
 }
-#box{
-/* checkbox*/
+#dois{
+    background-image: url(./images/lock.svg);
+    background-repeat: no-repeat;
+    background-position: 10px, 50%;
+   
+}
+#um{
+    background-image: url(./images/mail.svg);
+    background-repeat: no-repeat;
+    background-position: 10px, 50px;
+    
 }
 .checkbox{
 /* checkbox line*/
     display: inline-block;
-}
-a{
-/* below links*/
-    color: #ffc632;
-    text-decoration: none;
-}
-.senha{
-    float: right;  
-    margin: 16px 7px 0px 0px;
-}
-.center{
-    /* below link text position */
-   text-align: center;
-   display: block;
-   margin-top: 14px;
 }
 .submit{
     /* boton */
@@ -65,19 +62,31 @@ a{
         width: 97%;
         height: 45px;
         border-radius: 6px;
+}
+.text{
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+/* Links configs */
+} 
+a{
+    color: #ffc632;
+    text-decoration: none;
+    /* below links*/
+}
+.senha{
+    float: right;  
+    margin: 16px 7px 0px 0px;
+    transform: translate(-12px, 4px);
+}
+.center{
+    /* below link text position */
+   text-align: center;
+   display: block;
+   margin-top: 14px;
+}
+
 
 /* --primary-color: #ffc632;
       --text-base: #afb6c2;
       ## **Tipo de fonte:**
-
-font-family: Poppins 
-
-font Weight: 400, 500 e 600
-
-font-family: Roboto
-
-Font Weight: 400 e 500
-
-Você pode encontrar 
-a fonte no [Google Fonts]
-(https://fonts.google.com/) /*
