@@ -116,34 +116,44 @@ a{
 
 
         }
-    @media screen and (min-width: 880px) {
+    @media screen and (min-width: 875px) {
         /* dispositivos como galaxy note tem pouco mais de 900px deitado, Talvez seja uma boa tentar inserir a imagem */
         .logo{
             position: absolute;
-            display: inline;
-        }
+            display: inline;}
         body{
             padding: 0px;
             margin: 0px;
-
-        }
+            height: 500px; }
         .img{
             display: inline-block;
             position: relative;
             width: 50%;
             right: -20px;
-            bottom: 22px;
-            
-        }
+            bottom: 30px;
+            overflow-x: 50%;}
         .body{
             width: 44%;
             float: left;
             margin: 3% 3% 3% 3%;
             padding: 10px 0px 30px 0px;
-            box-sizing: content-box;
-
-        }
+            box-sizing: content-box;}
         .position{
-            width: 75%;
+            width: 75%;}
+        
+    }
+        .all{
+            width: 880;
+            height: 600px;
+            overflow: hidden;
+        }
+    @media screen and (min-width: 1080px) {
+        .body{
+           margin-top: 5%;
+        }
+        .img{
+            bottom: 180px;
         }
     }
+    
+        
