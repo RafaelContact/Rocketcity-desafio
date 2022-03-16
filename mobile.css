@@ -97,6 +97,7 @@ a{
 input[type=text]:focus{
     border-color: #ffc632;
 }
+
     /* tamanho do galaxy s20  width: 430px;
     A largura do iphone 12max é de 428px segundo o firefox */
     @media screen and (min-width: 515px) {
