@@ -58,6 +58,7 @@ p{
 .checkbox{
 /* checkbox line*/
     display: inline-block;
+    background-color: #191816;
 }
 .submit{
     /* boton */
@@ -93,6 +94,9 @@ a{
 .img{
     display: none;
 }
+input[type=text]:focus{
+    border-color: #ffc632;
+}
     /* tamanho do galaxy s20  width: 430px;
     A largura do iphone 12max é de 428px segundo o firefox */
     @media screen and (min-width: 515px) {
@@ -104,6 +108,12 @@ a{
             box-sizing: border-box;
             padding: 20px 20px 20px 40px;
              }
+        .checkbox{
+            background-color: #24221f;
+        }
+        .submit{
+            cursor: pointer;
+        }
 
      }
     @media screen and (min-width: 600px){
@@ -144,12 +154,12 @@ a{
     }
         .all{
             width: 880;
-            height: 600px;
+            height: 650px;
             overflow: hidden;
         }
     @media screen and (min-width: 1080px) {
         .body{
-           margin-top: 5%;
+           margin-top: 8%;
         }
         .img{
             bottom: 180px;
