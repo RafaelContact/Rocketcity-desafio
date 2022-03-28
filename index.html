@@ -1,11 +1,12 @@
-<!-- Arrumar as fontes, configurar a ultima media querie para se posicionar com uma unidade de medida responsiva que não é fixa como vmin e desfazer a gambiarra-->
+<!--  Configurar a ultima media querie para se posicionar com uma unidade de medida responsiva que não é fixa como vmin e desfazer a gambiarra-->
+
 <!-- descobrir como modificar as bordas do input (subseletores)-->
 <!-- colocar transição nos inputs -->
-<!-- fazer uma página de esqueci minha senha e não tenho cadastro -->
-<!-- vincular ao mailchimp essas informações para enviar um email de registro automatico -->
-<!-- fazer uma página de login feito com sucesso para ser encaminhado após o submit -->
-<!-- Passar a página no google analitcs para verificar o desempenho, fazer um arquivo roboto-txt e um sitemap -->
-<!--  Subir em uma hospedagem grátis e também subir no github sites e fazer um readme -->
+
+<!-- Subir em uma hospedagem grátis para testar -->
+<!-- Fazer um bom readme -->
+<!-- Passar a página no google analitcs para verificar o desempenho, fazer um arquivo roboto-txt, sitemap  para 2 paginas ? -->
+<!-- Aprender a fazer uma página de login feito com sucesso para ser encaminhado após o submit  -->
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -51,20 +52,20 @@
         <h1>Faça seu login</h1>
         <h2> Entre com suas informações de cadastro</h2>
     </head>
-    <!-- Includ action ? -->
-    <form action="">
+    <!-- Incluir uma action requer conhecimento em js, uma vez que a requisição será interna e não de um input pronto como google ou youtube -->
+    <form action="" method="">
         <p>E-mail </p>
         <input class="tam" id="um" type="text" placeholder="Digite seu e-mail" >
         <p>Senha</p>
-        <input class="tam" id="dois" id="eye" type="text" placeholder="Digite sua senha">
+        <input class="tam" id="dois" id="eye" type="password" placeholder="Digite sua senha">
 <!-- Os inputs devem ter estilos diferentes dependendo do estado (normal ou em foco) -->
-<!-- Deve ser incluida uma forma de o background e outras imagens serem incluidas. -->
+    <!-- Deve ser incluida uma forma de o background e outras imagens serem incluidas. -->
         <br><input class="box" type="checkbox" nome="check">
         <p class="checkbox" >Lembre-me</p>
-        <a href="" class="senha"> <strong> Esqueci a minha Senha </strong></a> <br>
+        <a href="" class="senha"> <span style="font-weight: 600;"> Esqueci a minha Senha </span></a> <br>
         <input class="submit text" type="submit" value="Entrar">
     </form>
-    <a href="" class="center">Não tem uma conta? <strong> Registre-se </strong></a>
+    <a href="./html/cadastre-se.html" class="center">Não tem uma conta? <span style="font-weight: 600;"> Registre-se </span></a>
     </div>
     </div>
 <!-- right photo -->
