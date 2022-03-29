@@ -1,10 +1,4 @@
-/*:root {
-    --text-base: #afb6c2;
-    --text-title: #d4ccb6;
-    --background: #191816;
-    --form-background: #24221f;
-    --primary-color: #ffc632;
-  } */
+
 body{
  
     height: 813px;
@@ -15,13 +9,10 @@ body{
     color: #afb6c2; }
 
 /* HEADER CONFIGS */
-
-head{
-    background-color: #ffc632;
+.all{
     margin: auto;
-    position: relative;
+    max-width: 390px;
 }
-
 h1{
     color: #d4ccb6;
     display: inline-block;
@@ -42,7 +33,7 @@ p{
 
 form{
     max-width: 400px;
-    margin: auto;
+    
 }
 .tam{
 /* INPUT BOXES */ 
@@ -110,17 +101,22 @@ a{
 
     /* tamanho do galaxy s20  width: 430px;
     A largura do iphone 12max é de 428px segundo o firefox */
-    @media screen and (min-width: 530px) {
+@media screen and (min-width: 800px) {
         /* alterei para 430 a transição pois não tem celular muito maior que isso a tansição fica interessante*/
         .all{
             margin: auto;
             width: 500px;
+            max-width: 500px;
+        }
+        .head{
+            padding: 0px 0px 0px 20px;
         }
         .body{
             background-color: #24221f;
             box-sizing: border-box;
             padding: 20px 60px 20px 90px;
             max-width: 580px;
+            margin-top: 10vw;
              }
         form{
             max-width: 300px;
@@ -139,6 +135,5 @@ a{
             transform: translate(-80% 0%);
         }
 
-     }
-     @media screen and (min-width: 1000px ) {
-        /* aprender grid para colocar a imagem */
+}
+        
