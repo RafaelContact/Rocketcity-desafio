@@ -13,27 +13,39 @@ body{
     background-color: #191816;
     background-size: cover;
     color: #afb6c2; }
-    
+
+/* HEADER CONFIGS */
+
+head{
+    background-color: #ffc632;
+    margin: auto;
+    position: relative;
+}
+
 h1{
     color: #d4ccb6;
     display: inline-block;
     margin-bottom: 0px;
-    font-size: 28px;
-    
-    
+    font-size: 28px;  
 }
+
 h2{
     margin-top: 5px;
     font-size: 15px;   
 }
+
 p{
     margin-bottom: 5px;
 }
 
-/* Input configs */
+/* INPUT CONFIG */
 
+form{
+    max-width: 400px;
+    margin: auto;
+}
 .tam{
-/* input boxes */ 
+/* INPUT BOXES */ 
     width: 96%;
     height: 35px; 
     border-radius: 5px;
@@ -44,6 +56,7 @@ p{
     box-sizing: border-box;
     box-shadow: none;
 }
+
 #dois{
     background-image: url(./images/lock.svg);
     background-repeat: no-repeat;
@@ -81,9 +94,9 @@ a{
     /* below links*/
 }
 .senha{
-    float: right;  
-    margin: 16px 7px 0px 0px;
-    transform: translate(-12px, 4px);
+    float: right;
+    line-height: 55px;  
+    transform: translate(-12px, 0px);
 }
 .center{
     /* below link text position */
@@ -91,81 +104,41 @@ a{
    display: block;
    margin-top: 14px;
 }
-    
 .img{
     display: none;
-}
-input[type=text]:focus{
-    border-color: #ffc632;
 }
 
     /* tamanho do galaxy s20  width: 430px;
     A largura do iphone 12max é de 428px segundo o firefox */
-    @media screen and (min-width: 515px) {
-        /* Mudei para 515 a transição por conta do posicionamento do link ao lado do box lembre-me*/
-        
+    @media screen and (min-width: 530px) {
+        /* alterei para 430 a transição pois não tem celular muito maior que isso a tansição fica interessante*/
+        .all{
+            margin: auto;
+            width: 500px;
+        }
         .body{
             background-color: #24221f;
-            margin: 80px 50px 80px 50px;
             box-sizing: border-box;
-            padding: 20px 20px 20px 40px;
+            padding: 20px 60px 20px 90px;
+            max-width: 580px;
              }
+        form{
+            max-width: 300px;
+        }
         .checkbox{
             background-color: #24221f;
         }
         .submit{
             cursor: pointer;
         }
+        a{
+            font-size: 0.9em;
+        }
+        p{
+            font-size: 0.9em;
+            transform: translate(-80% 0%);
+        }
 
      }
-    @media screen and (min-width: 600px){
-        /* Aqui vai atender alguns tablets, por que o ipad vai em volta de 800px */
-        .position{
-            width: 430px;
-            box-sizing: border-box;
-            margin: auto;
-        }
-
-
-        }
-    @media screen and (min-width: 875px) {
-        /* dispositivos como galaxy note tem pouco mais de 900px deitado, Talvez seja uma boa tentar inserir a imagem */
-        .logo{
-            position: absolute;
-            display: inline;}
-        body{
-            padding: 0px;
-            margin: 0px;
-            height: 500px; }
-        .img{
-            display: inline-block;
-            position: relative;
-            width: 50%;
-            right: -20px;
-            bottom: 30px;
-            overflow-x: 50%;}
-        .body{
-            width: 44%;
-            float: left;
-            margin: 3% 3% 3% 3%;
-            padding: 10px 0px 30px 0px;
-            box-sizing: content-box;}
-        .position{
-            width: 75%;}
-        
-    }
-        .all{
-            width: 880;
-            height: 650px;
-            overflow: hidden;
-        }
-    @media screen and (min-width: 1080px) {
-        .body{
-           margin-top: 8%;
-        }
-        .img{
-            bottom: 180px;
-        }
-    }
-    
-        
+     @media screen and (min-width: 1000px ) {
+        /* aprender grid para colocar a imagem */
