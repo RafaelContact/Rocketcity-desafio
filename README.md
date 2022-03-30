@@ -24,6 +24,13 @@ Com isso, uma das coisas que tenho feito é começar a subdividr o código por s
 Outra coisa que tenho incluido são rotas do que vou fazer em determinado ponto do código ou cores e caminhos que vou precisar seguir.
 
 ### Mobile fist
-Este foi o primeiro projeto que comecei a trabalhar com mobile fist, apesar de ser muito primario, acredito que o resultado em sí não tem ficado ruim. A grande questão que entendi nesse processo é que isso facilita bastante o designe, já que transformar algo pequeno em grande, é mais fácil do que transformar algo grande para uma tela pequena
+Este foi o primeiro projeto que comecei a trabalhar com mobile fist, apesar de ser muito primario, acredito que o resultado em sí não tem ficado ruim. A grande questão que entendi nesse processo é que facilita bastante o designe, já que transformar algo pequeno em grande é mais fácil do que transformar algo grande para uma tela pequena
 
 ### Git workflow 
+O workflow é uma questão mais conceitural. Seguindo o workflow a risca eu deveria ter criado uma nova branch e saido da master logo no inicio do projeto, então de forma geral eu estou seguindo o workflow criando uma hot-fix e fazendo vários commits para contar uma história do desenvolvimento. Essa é a primeira vez que tento aplicar e ainda estou aprendendo, espero que no proximo fique melhor, e eu não fique perdido pensando no que vou codar e esqueça de aplicar no meu código.
+
+### Figma
+Esse projeto está montado no figma pela equipe da rocket, e não foi uma página na web que foi copiada. Foi a primeira vez que tive contato com essa ferramenta, e demorou um pouco para que eu conseguisse entender melhor como ela funcionava. Ainda não entendi bem, mas o andamento do processo está indo bem e em breve vou domina-la para poder fazer mais desafios.
+
+### grid (ainda não aplicado)
+### sub seletores ( ainda não aplicado)
