@@ -128,6 +128,11 @@ a{
        * A largura do iphone 12max é de 428px segundo o firefox no meu monitor, mesmo o maior celular vai pegar a tela padrão de celular */
 
 @media screen and (min-width: 450px) {
+    .logo{
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
     .position{
         margin-top: 50px;
         width: 100%;
@@ -140,17 +145,22 @@ a{
 }
 @media screen and (min-width: 1200px ){
     /* O tamanho da imagem, não combina com esse tamanho de transição. levando em consideração o tamanho do form e seu formato. Que pode ficar estranho */
+
+    body{
+        background-color: #d5cbd7;
+    }
     .logo{
         position: absolute;
-        top: 0px;
-        left: 0px;
+        top: 30px;
+        left: 20px;
     }
     /* usando a class all para posicionar os dois elementos absolutos dentro dele */
     .all{
         width: 1200px;
         position: relative;
-        top: -20px;
+        top: 30px;
         margin: auto;
+        border-radius: 200px;
     }
     .left{
         position: absolute;
@@ -159,17 +169,21 @@ a{
         padding-top: 80px;
         /* left reajusta posicionamento do position para não perder o margin auto */
         width: 600px;
-        height: 680px;
+        height: 740px;
         box-sizing: border-box;
+        border-radius: 40px 0px 0px 40px;
+        background-color: #191816;
     } 
     /* class right para conter a imagem dentro dela*/
     .right{
         position: absolute;
         width: 600px;
-        height: 680px;
+        height: 740px;
         right: 0px;
         top: 0px;
         box-sizing: border-box;
+        border-radius: 0px 40px 40px 0px;
+        overflow: hidden;
     }
     .carro{
         /*Agora a imagem vaza do container mas se aproxima muito da proposta inicial, e por não ter overflow hidem não influencia muito na visualização final */
