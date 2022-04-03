@@ -12,13 +12,13 @@ body{
     width: 360px;
     box-sizing: border-box;
     margin: auto;
-    padding: 10px 5px 10px 10px;
+    padding: 0;
     border: 1px solid white;
 }
 
 /* HEADER CONFIGS */
-head{
-    max-width: 345px;
+.top-form{
+    max-width:  345px;
     margin: auto;
 }
 h1{
@@ -47,7 +47,7 @@ input[type=email], input[type=password] {
     height: 35px; 
     border-radius: 5px;
     margin-bottom: 10px;
-    margin-left: 10px;
+    margin-left: 5px;
     color: rgb(175, 182, 194);
     padding: 0px 5px 0px 35px;
     box-sizing: border-box;
@@ -81,7 +81,7 @@ input[type=submit]{
     font-weight: 500;
     background-color: #ffc632;
     width: 96%;
-    margin-left: 10px;
+    margin-left: 5px;
     height: 45px;
     border-radius: 6px;
 }
@@ -116,6 +116,10 @@ a{
        * A largura do iphone 12max é de 428px segundo o firefox no meu monitor, mesmo o maior celular vai pegar a tela padrão de celular */
 
 @media screen and (min-width: 438px) {
+    .left{
+        width: 440px;
+        background-color: #24221f;
+    }
 
 }
 
