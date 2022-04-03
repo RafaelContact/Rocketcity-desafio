@@ -138,39 +138,41 @@ a{
     }
     /* Essa configuração ficou muito boa */
 }
-@media screen and (min-width: 875px ){
+@media screen and (min-width: 1200px ){
     /* O tamanho da imagem, não combina com esse tamanho de transição. levando em consideração o tamanho do form e seu formato. Que pode ficar estranho */
-/* usando a tag all para posicionar os dois elementos absolutos dentro dele */
+    .logo{
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+    /* usando a class all para posicionar os dois elementos absolutos dentro dele */
     .all{
-        width: 880px;
+        width: 1200px;
         position: relative;
+        top: -20px;
         margin: auto;
     }
     .left{
         position: absolute;
         top: 0px;
         left: 0px;
-        border: 1px solid white;
-        width: 440px;
+        padding-top: 80px;
+        /* left reajusta posicionamento do position para não perder o margin auto */
+        width: 600px;
         height: 680px;
         box-sizing: border-box;
-        /* reposicionar o objeto dentro do container não pareceu ser uma ideia muito interessante.  */
-    }
-    .logo{
-        position: absolute;
-    }
-    
+    } 
+    /* class right para conter a imagem dentro dela*/
     .right{
         position: absolute;
-        width: 440px;
+        width: 600px;
         height: 680px;
-        border: 1px solid white;
         right: 0px;
         top: 0px;
         box-sizing: border-box;
     }
-    /* Mesmo estando dentro de um container a imagem se deforma */
     .carro{
+        /*Agora a imagem vaza do container mas se aproxima muito da proposta inicial, e por não ter overflow hidem não influencia muito na visualização final */
         display: inline-block;
         width: 100%;
     }
