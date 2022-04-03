@@ -38,7 +38,7 @@ form{
     max-width: 345px;
     
 }
-.tam{
+.tamanho{
 /* INPUT BOXES */ 
     width: 96%;
     height: 35px; 
@@ -51,22 +51,28 @@ form{
     box-shadow: none;
 }
 
-#dois{
-    background-image: url(./images/lock.svg);
-    background-repeat: no-repeat;
-    background-position: 10px, 50%;
-   
-}
-#um{
+#imputum{
     background-image: url(./images/mail.svg);
     background-repeat: no-repeat;
     background-position: 10px, 50px;
     
 }
+#imputdois{
+    background-image: url(./images/lock.svg);
+    background-repeat: no-repeat;
+    background-position: 10px, 50%;
+   
+}
 .pcheckbox{
 /* checkbox line*/
     display: inline-block;
     margin-left: 10px;
+}
+input[type=submit]{
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 500;
 }
 .submit{
     /* boton */
@@ -76,13 +82,6 @@ form{
         height: 45px;
         border-radius: 6px;
 }
-.text{
-    font-size: 16px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    font-weight: bold;
-/* Links configs */
-} 
 a{
     color: #ffc632;
     text-decoration: none;
@@ -99,6 +98,7 @@ a{
    display: block;
    margin-top: 14px;
 }
+/*  IMAGEM DO LADO DIREITO */
 .carro{
     display: none;
 }
@@ -108,7 +108,7 @@ a{
        * A largura do iphone 12max é de 428px segundo o firefox, mesmo o maior celular vai pegar a tela padrão de celular */
 
 @media screen and (min-width: 438px) {
-    
+
 }
 
 
