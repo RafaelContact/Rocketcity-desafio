@@ -2,17 +2,19 @@
 body{
  
     height: 813px;
-    padding: 15px 10px 10px 20px;
     margin: 0px;
     background-color: #191816;
     background-size: cover;
     color: #afb6c2; }
 
-/* HEADER CONFIGS */
-.all{
+.left{
+    /* esse body é a parte que vai conter o tamanho de todo conteúdo do site e ficará a direita em posição absoluta */
+    width: 360px;
+    box-sizing: border-box;
     margin: auto;
-    max-width: 390px;
+    padding: 10px 5px 10px 10px;
 }
+/* HEADER CONFIGS */
 h1{
     color: #d4ccb6;
     display: inline-block;
@@ -27,12 +29,13 @@ h2{
 
 p{
     margin-bottom: 5px;
+    margin-left: 10px;
 }
 
 /* INPUT CONFIG */
 
 form{
-    max-width: 400px;
+    max-width: 345px;
     
 }
 .tam{
@@ -41,7 +44,7 @@ form{
     height: 35px; 
     border-radius: 5px;
     margin-bottom: 10px;
-    border-width: 1px solid;
+    margin-left: 10px;
     color: rgb(175, 182, 194);
     padding: 0px 5px 0px 35px;
     box-sizing: border-box;
@@ -60,15 +63,16 @@ form{
     background-position: 10px, 50px;
     
 }
-.checkbox{
+.pcheckbox{
 /* checkbox line*/
     display: inline-block;
-    background-color: #191816;
+    margin-left: 10px;
 }
 .submit{
     /* boton */
         background-color: #ffc632;
         width: 97%;
+        margin-left: 10px;
         height: 45px;
         border-radius: 6px;
 }
@@ -95,45 +99,17 @@ a{
    display: block;
    margin-top: 14px;
 }
-.img{
+.carro{
     display: none;
 }
 
-    /* tamanho do galaxy s20  width: 430px;
-    A largura do iphone 12max é de 428px segundo o firefox */
-@media screen and (min-width: 800px) {
-        /* alterei para 430 a transição pois não tem celular muito maior que isso a tansição fica interessante*/
-        .all{
-            margin: auto;
-            width: 500px;
-            max-width: 500px;
-        }
-        .head{
-            padding: 0px 0px 0px 20px;
-        }
-        .body{
-            background-color: #24221f;
-            box-sizing: border-box;
-            padding: 20px 60px 20px 90px;
-            max-width: 580px;
-            margin-top: 10vw;
-             }
-        form{
-            max-width: 300px;
-        }
-        .checkbox{
-            background-color: #24221f;
-        }
-        .submit{
-            cursor: pointer;
-        }
-        a{
-            font-size: 0.9em;
-        }
-        p{
-            font-size: 0.9em;
-            transform: translate(-80% 0%);
-        }
+    /* * a tela do pc reduz até 440px, logo se eu transicionar aos 438 pego as  3 telas no pc;
+       * todos os celulares vão ficar com layout semelhante
+       * A largura do iphone 12max é de 428px segundo o firefox, mesmo o maior celular vai pegar a tela padrão de celular */
 
+@media screen and (min-width: 438px) {
+    
 }
-        
+
+
+

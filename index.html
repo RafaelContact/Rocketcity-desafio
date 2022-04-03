@@ -42,18 +42,22 @@
     
 <body>
     <img class="logo" src="./images/logo.svg" alt="logo"><br>
+
+    <!-- todo conteúdo do site -->
 <div class="all">
-    <!-- Element for the contents -->
-    <div class="body">
-          <!-- Position inside of the element -->
-        <div class="position">
-            <div class="head">
+
+    <!-- Todo conteúdo e divs do form-->
+    <div class="left">
+
+            <!-- conteúdo que fica acima do formulário -->
+            <div class="top-form">
             <head >
               <img src="./images/log-in.svg" alt="login">
                   <h1>Faça seu login</h1>
                   <h2> Entre com suas informações de cadastro</h2>
             </head>
             </div>
+
           <!-- Incluir uma action requer conhecimento em js, uma vez que a requisição será interna e não de um input pronto como google ou youtube -->
               <form action="" >
                   <p>E-mail </p>
@@ -61,18 +65,21 @@
                   <p>Senha</p>
                   <input class="tam" id="dois" id="eye" type="password" placeholder="Digite sua senha">
     <!-- Os inputs devem ter estilos diferentes dependendo do estado (normal ou em foco) -->
-    <!-- Deve ser incluida uma forma de o background e outras imagens serem incluidas. -->
+    <!-- Deve ser incluida uma forma de o background e outras imagens serem incluidas dentro do imput-->
+
+                <!-- texto e checkbox -->
                   <br><input class="box" type="checkbox" nome="check">
-                  <p class="checkbox" >Lembre-me</p>
+                  <p class="pcheckbox" >Lembre-me</p>
+                  <!-- link da senha perdida -->
                   <a href="./html/senha.html" class="senha"> <span style="font-weight: 600;"> Esqueci a minha Senha </span></a> <br>
                   <input class="submit text" type="submit" value="Entrar">
+                  <!-- link de cadastro -->
                   <a href="./html/cadastre-se.html" class="center">Não tem uma conta? <span style="font-weight: 600;"> Registre-se </span></a>
               </form>
-        </div>
     </div>
 <!-- right photo -->
-    <aside class="photo">
-        <img class="img" src="./images/side-image.jpg" alt="acampamento" width="50%">
+    <aside class="right">
+        <img class="carro" src="./images/side-image.jpg" alt="acampamento" width="50%">
     </aside>  
 </div>
 </body>
