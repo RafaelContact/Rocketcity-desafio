@@ -139,17 +139,19 @@ a{
     /* Essa configuração ficou muito boa */
 }
 @media screen and (min-width: 875px ){
-    /* Decidir colocar os elementos pais em porcentagem faz com que dentro deles ocorram algumas bizarrices da mesma forma que ocorria quando eram soltos , só que agora em blocos menores */
-/* será mais fácil posicionar o container do que os objetos dentro dele */
-    .position{
-        margin: 100px;
+    /* O tamanho da imagem, não combina com esse tamanho de transição. levando em consideração o tamanho do form e seu formato. Que pode ficar estranho */
+/* usando a tag all para posicionar os dois elementos absolutos dentro dele */
+    .all{
+        width: 880px;
+        position: relative;
+        margin: auto;
     }
     .left{
         position: absolute;
         top: 0px;
         left: 0px;
         border: 1px solid white;
-        width: 50%;
+        width: 440px;
         height: 680px;
         box-sizing: border-box;
         /* reposicionar o objeto dentro do container não pareceu ser uma ideia muito interessante.  */
@@ -160,7 +162,7 @@ a{
     
     .right{
         position: absolute;
-        width: 50%;
+        width: 440px;
         height: 680px;
         border: 1px solid white;
         right: 0px;
@@ -171,7 +173,6 @@ a{
     .carro{
         display: inline-block;
         width: 100%;
-        height: 100%;
     }
 }
 
