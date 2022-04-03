@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="../mobile.css">
  
     <title>Mobile-dark-yellow</title>
@@ -31,40 +31,47 @@
         .text{
             font-family: 'Poppins', sans-serif;
         }
-    </style>
+        </style>
     
-<body>
-<div class="all">
-    <img class="logo" src="../images/logo.svg" alt="logo"><br>
-    <!-- Element for the contents -->
-    <div class="body">
-    <!-- Position inside of the element -->
-    <div class="position">
-    <head>
-        <img src="../images/log-in.svg" alt="login">
-        <h1>Faça seu cadastro</h1>
-        <h2> Insira seus dados</h2>
-    </head>
-    <!-- Incluir uma action requer conhecimento em js, uma vez que a requisição será interna e não de um input pronto como google ou youtube -->
-    <form action="https://gmail.us20.list-manage.com/subscribe/post?u=2d3c8880bc4fc5f8baca54f42&amp;id=f8f02a7167" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-        <p>E-mail </p>
-        <input class="tam" id="um" type="email"  name="EMAIL" placeholder="Digite seu e-mail" >
-        <p>Senha</p>
-        <input class="tam" id="dois" id="eye" name="SENHA" type="password" placeholder="Digite sua senha" style="margin-bottom: 45px;">
-<!-- Os inputs devem ter estilos diferentes dependendo do estado (normal ou em foco) -->
-    <!-- Deve ser incluida uma forma de o background e outras imagens serem incluidas. -->
+    <body>
+        <img class="logo" src="../images/logo.svg" alt="logo"><br>
+        
+        <!-- Element for the contents -->
+        <div class="all">
 
-    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_2d3c8880bc4fc5f8baca54f42_f8f02a7167" tabindex="-1" value=""></div>
-        <input class="submit text" type="submit"  value="Cadastrar">
-        <a href="../index.html" class="center">  <span style="font-weight: 600;"> Voltar </span></a>
-    </form>
-    </div>
-    </div>
-<!-- right photo -->
-    <aside class="photo">
-        <img class="img" src="../images/side-image.jpg" alt="acampamento" width="50%">
-    </aside>  
-</div>
+                <div class="left">
+                <!-- talvez a tag main seria mais interessante -->
+                
+                <div class="position">
+                    <div class="top-form">
+                        <head>
+                            <img src="../images/log-in.svg" alt="login">
+                            <h1>Faça seu cadastro</h1>
+                            <h2> Insira seus dados</h2>
+                        </head>
+                    </div>
+                
+                <!-- Incluir uma action requer conhecimento em js, uma vez que a requisição será interna e não de um input pronto como google ou youtube -->
+                    <form action="https://gmail.us20.list-manage.com/subscribe/post?u=2d3c8880bc4fc5f8baca54f42&amp;id=f8f02a7167" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                        <p>E-mail </p>
+                        <input  id="imputum" type="email"  name="EMAIL" placeholder="Digite seu e-mail" >
+                        <p>Senha</p>
+                        <input id="imputdois" id="eye" name="SENHA" type="password" placeholder="Digite sua senha" style="margin-bottom: 45px;">
+                    <!-- Deve ser incluida uma forma de o background e outras imagens serem incluidas. -->
+                    
+                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_2d3c8880bc4fc5f8baca54f42_f8f02a7167" tabindex="-1" value="">,
+                        </div>
+                        <input class="submit text" type="submit"  value="Cadastrar">
+                        <a href="../index.html" class="pregistro">  <span style="font-weight: 600;"> Voltar </span></a>
+                    </form>
+            </div>
+                </div>
+
+            <!-- right photo -->
+            <aside class="right">
+                <img class="carro" src="../images/side-image.jpg" alt="acampamento" width="50%">
+            </aside>  
+        </div>
 </body>
 </html>
