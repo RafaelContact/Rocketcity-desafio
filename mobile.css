@@ -1,32 +1,36 @@
-
+/* OBJETOS PAI */
 body{
  
     height: 813px;
     margin: 0px;
     background-color: #191816;
     background-size: cover;
-    color: #afb6c2; }
-
+    color: #afb6c2; 
+}
 .left{
     /* esse body é a parte que vai conter o tamanho de todo conteúdo do site e ficará a direita em posição absoluta */
     width: 360px;
     box-sizing: border-box;
     margin: auto;
     padding: 10px 5px 10px 10px;
+    border: 1px solid white;
 }
+
 /* HEADER CONFIGS */
+head{
+    max-width: 345px;
+    margin: auto;
+}
 h1{
     color: #d4ccb6;
     display: inline-block;
     margin-bottom: 0px;
     font-size: 28px;  
 }
-
 h2{
     margin-top: 5px;
     font-size: 15px;   
 }
-
 p{
     margin-bottom: 5px;
     margin-left: 10px;
@@ -36,10 +40,9 @@ p{
 
 form{
     max-width: 345px;
-    
+    margin: auto;
 }
-.tamanho{
-/* INPUT BOXES */ 
+input[type=email], input[type=password] {
     width: 96%;
     height: 35px; 
     border-radius: 5px;
@@ -48,9 +51,12 @@ form{
     color: rgb(175, 182, 194);
     padding: 0px 5px 0px 35px;
     box-sizing: border-box;
-    box-shadow: none;
 }
-
+input[type=email]:focus, input[type=password]:focus {
+    transition: 0.2s;
+    outline: 3px solid #ffc632;
+    border: #ffc632;
+  }
 #imputum{
     background-image: url(./images/mail.svg);
     background-repeat: no-repeat;
@@ -73,39 +79,41 @@ input[type=submit]{
     letter-spacing: 1px;
     text-transform: uppercase;
     font-weight: 500;
+    background-color: #ffc632;
+    width: 96%;
+    margin-left: 10px;
+    height: 45px;
+    border-radius: 6px;
 }
-.submit{
-    /* boton */
-        background-color: #ffc632;
-        width: 97%;
-        margin-left: 10px;
-        height: 45px;
-        border-radius: 6px;
-}
+
+/* LINKS CONFIGS */
+
 a{
     color: #ffc632;
     text-decoration: none;
     /* below links*/
 }
-.senha{
+.psenha{
     float: right;
     line-height: 55px;  
     transform: translate(-12px, 0px);
 }
-.center{
+.pregistro{
     /* below link text position */
    text-align: center;
    display: block;
    margin-top: 14px;
 }
+
 /*  IMAGEM DO LADO DIREITO */
+
 .carro{
     display: none;
 }
 
     /* * a tela do pc reduz até 440px, logo se eu transicionar aos 438 pego as  3 telas no pc;
        * todos os celulares vão ficar com layout semelhante
-       * A largura do iphone 12max é de 428px segundo o firefox, mesmo o maior celular vai pegar a tela padrão de celular */
+       * A largura do iphone 12max é de 428px segundo o firefox no meu monitor, mesmo o maior celular vai pegar a tela padrão de celular */
 
 @media screen and (min-width: 438px) {
 
