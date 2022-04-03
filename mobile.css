@@ -8,12 +8,24 @@ body{
     color: #afb6c2; 
 }
 .left{
-    /* esse body é a parte que vai conter o tamanho de todo conteúdo do site e ficará a direita em posição absoluta */
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.position{
+
+    /* position é a class que vai conter todo o conteúdo que ficará do lado esquerdo centralizada */
     width: 360px;
+    height: 400px;
     box-sizing: border-box;
     margin: auto;
     padding: 0;
-    border: 1px solid white;
+    
+}
+.all{
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 
 /* HEADER CONFIGS */
@@ -115,12 +127,52 @@ a{
        * todos os celulares vão ficar com layout semelhante
        * A largura do iphone 12max é de 428px segundo o firefox no meu monitor, mesmo o maior celular vai pegar a tela padrão de celular */
 
-@media screen and (min-width: 438px) {
-    .left{
-        width: 440px;
+@media screen and (min-width: 450px) {
+    .position{
+        margin-top: 50px;
+        width: 100%;
+        max-width: 500px;
+        height: 470px;
+        padding: 20px 10px 0px 10px;
         background-color: #24221f;
     }
-
+    /* Essa configuração ficou muito boa */
+}
+@media screen and (min-width: 875px ){
+    /* Decidir colocar os elementos pais em porcentagem faz com que dentro deles ocorram algumas bizarrices da mesma forma que ocorria quando eram soltos , só que agora em blocos menores */
+/* será mais fácil posicionar o container do que os objetos dentro dele */
+    .position{
+        margin: 100px;
+    }
+    .left{
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        border: 1px solid white;
+        width: 50%;
+        height: 680px;
+        box-sizing: border-box;
+        /* reposicionar o objeto dentro do container não pareceu ser uma ideia muito interessante.  */
+    }
+    .logo{
+        position: absolute;
+    }
+    
+    .right{
+        position: absolute;
+        width: 50%;
+        height: 680px;
+        border: 1px solid white;
+        right: 0px;
+        top: 0px;
+        box-sizing: border-box;
+    }
+    /* Mesmo estando dentro de um container a imagem se deforma */
+    .carro{
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+    }
 }
 
 
