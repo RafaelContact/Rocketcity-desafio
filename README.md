@@ -2,7 +2,7 @@
 
 # Página para captura de leads 💼 💼
 
-[![log](https://rafaelcontact.github.io/Rocketseat-desafio/images/logo.svg)](https://rafaelcontact.github.io/Rocketseat-desafio/index.html)
+[![logo](https://rafaelcontact.github.io/Rocketseat-desafio/images/logo.svg)](https://rafaelcontact.github.io/Pagina-de-login/)
   
 `Clique na logo para abrir o site`
   
