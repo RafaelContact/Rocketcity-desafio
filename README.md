@@ -1,20 +1,19 @@
 <div align= center>
 
-# Página para captura de leads
+# Página para captura de leads 💼 💼
 
-  <a href="#mailchimp"> Mailchimp</a>
-  <a href="#tecnologias"> Tecnologias</a>
-  <a href="#contato"> Contato</a>
-  
 [![log](https://rafaelcontact.github.io/Rocketseat-desafio/images/logo.svg)](https://rafaelcontact.github.io/Rocketseat-desafio/index.html)
   
 `Clique na logo para abrir o site`
   
+  <a href="#mailchimp">- Mailchimp</a>
+  <a href="#tecnologias">- Tecnologias</a>
+  <a href="#contato">- Contato</a>
 </div> 
 
-Este site é uma página de login, uma página de captura de clientes é muito importante para qualquer negócio, capturar leads para poder fidelizar  clientes. Por isso escolhi esse projeto. 
+Este site é uma página de login,é uma página de captura de clientes muito importante para qualquer negócio, capturar leads para poder fidelizar  clientes. Por isso escolhi esse projeto. 
 
-__Esse projeto não possui backend até o momento, e não será possível fazer login !__ Apenas simular o cadastro, clique aqui [mailchimp]( ##mailchimp ) para entender como isso acontece.
+__Esse projeto não possui backend até o momento, e não será possível fazer login !__ Apenas simular o cadastro, clique aqui <a href="#mailchimp">Mailchimp</a> para entender como isso acontece.
 
 
 
@@ -54,7 +53,7 @@ Apesar de simples vou deixar aqui uma lista do que será necessário para que o 
 - [x] Um E-mail para cadastro
 - [x] Um navegador de internet de sua preferência. 
 
-Para poder ver o projeto funcionando na versão desktop no celular, clique nos 3 pontos e selecione a opção desktop site.
+Para poder ver o projeto funcionando na versão desktop em seu celular, clique nos 3 pontos e selecione a opção desktop site. A transição só acontece em 1200px, então talvez você precise girar a tela para conseguir ver todas 3 versões em seu mobile.
 
 ### Faça você também 
 
