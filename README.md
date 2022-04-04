@@ -22,10 +22,14 @@ Dê uma olhada nessa funcionalidade que implementei no projeto :
 - [x] Integração de captura de leads com mailchimp
 - [x] E-mail de confirmação de cadastro
 - [x] Links com navegação interna usando layout do index
+- [x] Layout responsivo para 3 tamanhos de tela
 
 ## mailchimp
 
-O mailchimp é uma ferramenta que gerência listas de leads, e fazendo o cadastro aqui [link](https://rafaelcontact.github.io/Rocketseat-desafio/html/cadastre-se.html) você pode receber um e-mail automático de cadastro com sucesso (verifique a caixa de spam) . O e-mail informado ficará em uma lista de leads que poderia ser usada posteriormente, caso esse fosse um site de uma empresa ou evento real. Poderia por exemplo aprovar seu cadastro enviar novidades sobre o evento pelo seu email.
+O mailchimp é uma ferramenta que gerência listas de leads, e fazendo o cadastro aqui 
+
+
+[link](https://rafaelcontact.github.io/Rocketseat-desafio/html/cadastre-se.html) você pode receber um e-mail automático de cadastro com sucesso (verifique a caixa de spam) . O e-mail informado ficará em uma lista de leads que poderia ser usada posteriormente, caso esse fosse um site de uma empresa ou evento real. Poderia por exemplo aprovar seu cadastro enviar novidades sobre o evento pelo seu email.
 
 ## Tecnologias utilizadas
 
@@ -49,4 +53,9 @@ Apesar de simples vou deixar aqui uma lista do que será necessário para que o 
 Para poder ver o projeto funcionando na versão desktop no celular, clique nos 3 pontos e selecione a opção desktop site.
 
 # Contato 
-Para sugestões e mais projetos como esse entre em contato 
+Para saber como foi o processo de criação, sugestões e mais projetos como esse entre em contato e me acompanhe nas redes sociais
+
+[![linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rafael-rodrigues-1b2981129/)
+[![instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/rafinhadev/)
+
+[contactrodrigues21@gmail.com](mailto:contactrodrigues21@gmail.com)
