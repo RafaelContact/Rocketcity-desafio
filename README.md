@@ -2,7 +2,7 @@
 
 # Página para captura de leads 💼 💼
 
-[![logo](https://rafaelcontact.github.io/Pagina-de-login/images/logo.svg)](https://rafaelcontact.github.io/Pagina-de-login/)
+[![logo](https://github.com/rafinha-dev/Pagina-de-login/blob/master/images/logo.svg)](https://rafinha-dev.github.io/Pagina-de-login/)
   
 `Clique na logo para abrir o site`
   
